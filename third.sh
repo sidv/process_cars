@@ -14,4 +14,7 @@ done
 
 read a
 read b
-echo $((a+b))
+echo "Sum is":$((a+b))
+
+read b
+echo $b
